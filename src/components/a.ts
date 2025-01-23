@@ -10,6 +10,14 @@ export function c() {
   console.log(cc);
 }
 
+const a1=1;
+const a2=a1;
+export function a3() {
+  console.log(a2);
+}
+export default {
+  a1,a2,a3
+}
 
 
 export { b } from './b';
