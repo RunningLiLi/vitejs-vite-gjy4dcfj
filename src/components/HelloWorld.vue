@@ -7,7 +7,7 @@ defineProps({
 
 const count = ref(0);
 a();
-c;
+
 </script>
 
 <template>
